@@ -175,7 +175,7 @@ $C_INI = _LoadVar("$C_INI")
 ;	Exit
 ;EndIf
 
-_Initial()
+_Initial() ;this will pull in the username of whoever is logged into Sierra
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 if $nondlc = 0 then

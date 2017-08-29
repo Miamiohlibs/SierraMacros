@@ -593,7 +593,7 @@ if $SF_NAME <> 0 Then
 
 
 ;enter bib location code and 947
-;C_INI = _Initial()
+;C_INI = _Initial() ;this was testing code which has been moved up top
 
 sleep(0400)
 _SendEx("^{HOME}")

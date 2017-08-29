@@ -152,12 +152,12 @@ EndFunc
 ;########### function to determine 947 initials #############
 
 Func _Initial()
-	local $var
-	local $C_INI
 	$var = EnvGet("TEMP")
-
-	$var = StringTrimLeft($var, 9)
-	$var = StringTrimRight($var, 19)
+    ;MsgBox(4096, "Path variable is:", $var)
+    ;~ ClipPut($var)
+    $var = StringTrimLeft($var, 9)
+    $var = StringTrimRight($var, 19)
+    ;MsgBox(4096, "Path variable is:", $var)
 
 	Switch $var
 		Case "spencert"

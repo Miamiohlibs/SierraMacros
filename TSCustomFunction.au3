@@ -178,6 +178,8 @@ Func _Initial()
 			$C_INI = "mp"
 		Case "barbouh2"
 			$C_INI = "hlb"
+        Case "bomanca"
+            $C_INI = "cab"
 		case Else
 			$C_INI = InputBox("initials", "Please enter your initials!")
 	EndSwitch

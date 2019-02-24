@@ -1,0 +1,63 @@
+Dim $BIB_REC, $BIB_REC_PREP, $BIB_ARRAY_MASTER
+Dim $UPD
+Dim $ICODE1
+Dim $row1_MASTER, $row2_MASTER, $row3_MASTER
+Dim $BCODE3
+dim $CAT_DATE
+Dim $LANG
+Dim $BCODE1
+Dim $COUNTRY
+Dim $SKIP
+dim $BCODE2
+Dim $BIB_LOC_1
+dim $CAT_DATE_R
+Dim $TODAY_DATE
+dim $decide
+Dim $BIB_LOC
+Dim $LANG_CHECK
+Dim $008_L_A
+dim $008_L
+Dim $COUNTRY_CHECK
+Dim $008_C_A
+Dim $008_C
+Dim $SKIP_CHECK
+Dim $LOCATION
+Dim $ICODE1_1
+Dim $ITYPE
+Dim $LABELLOC
+Dim $VOL, $vol_300, $vol_300_multi
+Dim $BARCODE
+Dim $DUP_CHECK
+Dim $LAB_LOC
+Dim $ACCOMP
+Dim $C_INI
+dim $dean
+Dim $300_A, $300, $300_C_A, $300_C_A_1, $300_C, $300_C_X, $FOLIO, $300_E, $300_E_A, $300_E_1
+Dim $260_A, $008_D_A, $008_D, $050_D, $050_A, $050, $260, $260_L, $260_C1, $008, $008_CON, $260_C, $090_A
+Dim $245_2_A, $245_2
+Dim $MULTI_LOC_A, $MULTI_LOC, $MULTI_REF, $kngr, $aar, $scr, $docr, $mdir, $doc, $imr
+Dim $shelfready
+Dim $IS_IMC
+Dim $scfo, $scov
+Dim $KNGFO
+Dim $260, $260_C
+Dim $264, $264_C
+Dim $050, $050_B
+Dim $008, $008_date
+Dim $digCheck
+Dim $conf
+Dim $300error, $300errors, $300ok
+Dim $donor_loc
+Dim $SF_590, $SF_7XX, $SF_NAME, $SF_FIB
+Dim $AAFO
+Dim $don_name
+Dim $264_C_fix, $264_fix, $260_fix
+Dim $440_A, $490_A, $800_A, $810_A, $811_A, $830_A, $series
+Dim $856, $956
+Dim $subject
+Dim $REF, $REF_1
+Dim $OLOCATION
+Global $050_array[2]
+Dim $050_loc
+Dim $049, $MIAS, $MIAA, $MIAH, $MIBN
+Dim $Status
